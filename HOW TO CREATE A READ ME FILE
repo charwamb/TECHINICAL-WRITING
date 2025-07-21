@@ -1,0 +1,94 @@
+1. Headers
+markdown
+# Heading 1
+## Heading 2
+### Heading 3
+#### Heading 4
+##### Heading 5
+###### Heading 6
+2. Emphasis (Bold & Italic)
+markdown
+*Italic text* or _Italic text_  
+**Bold text** or __Bold text__  
+***Bold & Italic*** or ___Bold & Italic___
+3. Lists
+Unordered List (Bullet Points):
+
+markdown
+- Item 1
+- Item 2
+  - Sub-item (indent with 2 spaces or a tab)
+* Alternative bullet
+Ordered List (Numbered):
+
+markdown
+1. First item
+2. Second item
+   1. Sub-item (indent with 3 spaces)
+4. Links & Images
+Link:
+
+markdown
+[Text](https://example.com)
+Image:
+
+markdown
+![Alt Text](image.jpg "Optional Title")
+5. Code & Syntax Highlighting
+Inline Code:
+
+markdown
+`print("Hello, World!")`
+Code Block (Indent with 4 spaces or use triple backticks):
+
+markdown
+```python
+def hello():
+    print("Hello, World!")
+text
+6. Blockquotes
+markdown
+> This is a blockquote.
+> Multiple lines work too.
+7. Horizontal Rule
+markdown
+---
+or
+***
+or
+___
+8. Tables
+markdown
+| Header 1 | Header 2 |
+|----------|----------|
+| Cell 1   | Cell 2   |
+| Cell 3   | Cell 4   |
+9. Strikethrough
+markdown
+~~Strikethrough text~~
+10. Escaping Characters
+Use \ before special characters to display them literally:
+
+markdown
+\*Not italic\*
+Extended Markdown (GFM - GitHub Flavored Markdown)
+Task Lists:
+
+markdown
+- [x] Completed task
+- [ ] Incomplete task
+Emoji (in supported environments like GitHub):
+
+markdown
+:smile: :heart: :rocket:
+Where to Use Markdown?
+GitHub (README.md, comments, issues)
+
+Reddit, Discord, Slack (some formatting)
+
+Static site generators (Jekyll, Hugo)
+
+Note-taking apps (Obsidian, Notion, Typora)
+
+
+
